@@ -9,12 +9,17 @@
     <title>Document</title>
 </head>
 <body class="bg-very-dark-desaturated-blue-main">
+    <select name="" id="selection" style="font-size: 16px;" class="fixed right-6 top-3 px-2 py-2 rounded bg-very-dark-desaturated-blue-screen text-white">
+        <option value="Theme 1">Theme 1</option>
+        <option value="Theme 2">Theme 2</option>
+    </select>
     <div class="mx-auto w-full flex justify-center items-center calc">
         <div>
         <div>
             <input type="text" name="" id="text"  class="p-9 bg-very-dark-desaturated-blue-screen rounded text-white font-semibold" readonly>
         </div>
-        <div class="numbers bg-very-dark-desaturated-blue-keypad p-5 my-5 rounded">
+
+        <div class="numbers bg-very-dark-desaturated-blue-keypad p-5 my-5 rounded" id="number">
             <div class="grid grid-cols-4 gap-6 my-6">
                 <div class="col">
                     <button id="seven" class="px-8 py-2 bg-light-grayish-orange rounded border-b-4 border-grayish-orange hover:opacity-65">7</button>
